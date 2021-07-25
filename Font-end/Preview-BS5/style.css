@@ -1,0 +1,227 @@
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: .5rem;
+    margin-top: 0;
+}
+
+.h3, h3 {
+    font-size: 1.3125rem;
+    line-height: 1.4;
+}
+
+.h1, .h2, .h3, .h4, h1, h2, h3, h4 {
+    letter-spacing: -.01em;
+}
+.h2, h2 {
+    font-size: 1.9375rem;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-preview{
+    border-bottom: 3px solid #7952B3;
+    border-top: 1px solid #E5E9EF;
+    min-height: 60px;
+    background: #ffffff;
+    font-size: 12px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-preview{
+    position: absolute;
+    left: 50%;
+}
+
+.nav-item{
+    position: relative;
+    height: 54px;
+    width: 56px;
+}
+
+.text-gray-s{
+    color: #838E95;
+}
+a:hover{
+    color: #8fa1ac;
+}
+
+.form-inline{
+
+    display: flex;
+
+    flex-flow: row wrap;
+
+    align-items: center;
+}
+
+.btn-block{
+    display: block;
+    width: 100%;
+}
+
+.inline-block {
+    display: inline-block;
+    width: auto;
+}
+
+.btn-brand{
+    background-color: #7952B3;
+    color: cornsilk;
+}
+
+.header-preview{
+    padding: 20px 0 20px 0;
+
+}
+
+.list-a{
+    padding-left: 24px;
+    color: darkgray;
+}
+
+.btn-primary-soft {
+    background-color: rgba(51,94,234,.1);
+    color: #335eea;
+}
+
+/* .pt-md-11{
+    padding-top: 96px;
+} */
+
+.py-md-11 {
+    padding-bottom: 6rem;
+    padding-top: 6rem;
+}
+
+@media only screen and (min-width: 768px){
+    .pt-md-11 {
+    padding-top: 6rem;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .py-md-11 {
+    padding-top: 6rem;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .py-md-8 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .mb-md-9 {
+    margin-bottom: 4rem;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .mb-md-8 {
+    margin-bottom: 0px;
+    }
+}
+@media only screen and (min-width: 768px){
+    .mb-md-8k {
+    margin-bottom: 3rem;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .py-md-11k {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    }
+}
+
+.pt-15{
+    padding-top: 16rem;
+}
+
+.pt-8{
+    padding-top: 3rem;
+}
+
+@media only screen and (min-width: 768px){
+    .pt-md-11{
+    padding-top: 3rem;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .mb-md-11 {
+    margin-bottom: 6rem;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .mb-md-7 {
+    margin-bottom: 2.5rem;
+    }
+}
+
+
+@media only screen and (min-width: 768px){
+    .pt-md-13 {
+        padding-top: 10rem!important;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .pt-md-12 {
+        padding-top: 8rem!important;
+    }
+}
+
+.text-gray-700{
+    color: #506690;
+}
+
+.text-gray-600{
+    color: #869ab8
+}
+
+.fs-lg {
+    font-size: 1.1875rem!important;
+}
+
+.bg-gray-700-soft{
+    background-color: rgba(80,102,144,.1);
+    color: #506690;
+}
+
+.bg-gray-200{
+    background-color: #f1f4f8
+}
+
+
+
+/* @media only screen and (min-width: 768px){
+    .col-md-2{
+    flex: 0 0 auto;
+    width: 16.66667%;
+    }
+} */
+
+
+
+/*
+<ul class="navbar-nav ms-auto">
+            <li class="nav-item d-inline-flex"><a class="nav-link d-inline-flex" href="#">Landings</a></li>
+            <li class="nav-item "><a class="nav-link" href="#">Pages</a></li>
+            <li class="nav-item "><a class="nav-link" href="#">Account</a></li>
+            <li class="nav-item "><a class="nav-link" href="#">Documentation</a></li>
+          </ul>
